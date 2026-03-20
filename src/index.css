@@ -1,1 +1,11 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+
+html,
+body,
+#root {
+  @apply h-full bg-amber-50 text-base font-medium;
+}
+
+.prep-button {
+  @apply w-fit cursor-pointer rounded-lg border-2 border-amber-300 bg-amber-200 px-1 py-0.5 text-sm;
+}
